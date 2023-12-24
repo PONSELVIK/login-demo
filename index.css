@@ -1,0 +1,25 @@
+.box{
+	background-color: blue;
+	color:white;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	li{
+		list-style-type:none;
+		margin-left:10px;
+		a{
+			text-decoration: none;
+		}
+	}
+}
+.card-bg{
+	background: radial-gradient(#56c3ed, #58c4cff2);
+}
+.containerCard{
+	width: 50vw;
+	margin:0 0 0 25%;
+	padding:2px;
+}
